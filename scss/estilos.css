@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* Variables:*/
+.footer .container-fluid_piedepagina {
+  background-color: rgba(119, 119, 119, 0.3);
+  width: 100%;
+  color: rgb(2, 2, 2);
+  border-radius: 50px;
+  padding: 15px;
+}
+.footer .container-fluid_piedepagina .logos {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .container-fluid_piedepagina .logos .logos1 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer .container-fluid_piedepagina .logos .logos1:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transform: scale(2);
+}
+.footer .container-fluid_piedepagina .div .derechosreservados {
+  font-family: "Comforter Brush", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+/*main de index:*/
+.main .section .container-fluid .titulo-inicio {
+  font-family: "Roboto Slab", serif;
+  color: rgb(161, 161, 161);
+  text-align: center;
+  margin: 10px;
+}
+
+.main .foto-precio {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .foto-precio .figure {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.main .foto-precio .figure:hover {
+  opacity: 1;
+  visibility: visible;
+}
+.main .foto-precio .figure .img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .foto-precio .figure .img:hover {
+  transform: scale(1.3);
+}
+.main .foto-precio .figure .precio {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(119, 119, 119, 0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.main .foto-precio .figure .precio .pcorte {
+  font-family: "Roboto Slab", serif;
+  color: rgb(124, 124, 124);
+}
+.main .foto-precio .figure .precio .pcorte:hover {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.fondocb {
+  background: url(../img/fondo\ cb.jpeg);
+}
+
+.header .navbar_navbar-expand-lg_navbar-light_bg-light_fondo-header¨ {
+  background: rgba(255, 255, 255, 0.5);
+}
+.header .navbar_navbar-expand-lg_navbar-light_bg-light_fondo-header¨ .container-fluid .navbar-brand_titulo {
+  font-family: "Comforter Brush", cursive;
+  font-size: xx-large;
+}
+
+.header img {
+  width: 1200px;
+}
+
+/* main de galeria:*/
+.main .container .row_row-cols-1_row-cols-md-3_g-4 .col .card {
+  margin: 20px;
+  border-radius: 6px;
+  background-color: black;
+}
+.main .container .row_row-cols-1_row-cols-md-3_g-4 .col .card .imagen {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.main .container .row_row-cols-1_row-cols-md-3_g-4 .col .card .imagen:hover {
+  transform: scale(1.2);
+}
+
+.fondocb {
+  background: url(../img/fondo\ cb.jpeg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=estilos.css.map */
